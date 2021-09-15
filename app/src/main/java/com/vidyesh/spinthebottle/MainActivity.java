@@ -14,7 +14,7 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
     private ImageView bottle;
-    private Random random = new Random();
+    private final Random random = new Random();
     private int lastDir;
     private boolean spinning;
 
